@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/11/19 10:48:35 by Eclipse SUMO dfrouter Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="N7_network.net.xml"/>
+        <detector-files value="N7_detectors.det.xml"/>
+        <measure-files value="N7_flows.csv"/>
+    </input>
+
+    <output>
+        <routes-output value="N7_routes.rou.xml"/>
+        <detectors-poi-output value="N7_detectors.poi.xml"/>
+        <emitters-output value="N7_emitters.emi.xml"/>
+        <vtype value="true"/>
+        <vtype-output value="dfrouter-vtypes.add.xml"/>
+    </output>
+
+    <processing>
+        <max-search-depth value="250"/>
+        <time-factor value="1"/>
+        <time-step value="300"/>
+        <scale value="0.95"/>
+    </processing>
+
+    <defaults>
+        <departlane value="best"/>
+        <departpos value="random_free"/>
+        <departspeed value="max"/>
+        <arrivalpos value="max"/>
+    </defaults>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poi id="NRA_000000020072_Eastbound-1" type="source_detector_position" color="green" lane="32015714#0_0" pos="0.00"/>
+    <poi id="NRA_000000020072_Eastbound-2" type="source_detector_position" color="green" lane="32015714#0_1" pos="0.00"/>
+    <poi id="NRA_000000020072_Westbound-2" type="sink_detector_position" color="red" lane="38245579#1_1" pos="2207.00"/>
+    <poi id="NRA_000000020072_Westbound-1" type="sink_detector_position" color="red" lane="38245579#1_0" pos="2207.00"/>
+    <poi id="NRA_000000020071_Eastbound-1" type="between_detector_position" color="blue" lane="123967236#1_0" pos="1178.00"/>
+    <poi id="NRA_000000020071_Eastbound-2" type="between_detector_position" color="blue" lane="123967236#1_1" pos="1178.00"/>
+    <poi id="NRA_000000020071_Eastbound-3" type="between_detector_position" color="blue" lane="123967236#1_2" pos="1178.00"/>
+    <poi id="NRA_000000020071_Westbound-3" type="between_detector_position" color="blue" lane="123961236#9_2" pos="521.00"/>
+    <poi id="NRA_000000020071_Westbound-2" type="between_detector_position" color="blue" lane="123961236#9_1" pos="521.00"/>
+    <poi id="NRA_000000020071_Westbound-1" type="between_detector_position" color="blue" lane="123961236#9_0" pos="521.00"/>
+    <poi id="NRA_000000200723_Eastbound-1-(slow)" type="between_detector_position" color="blue" lane="123965879#4_0" pos="53.00"/>
+    <poi id="NRA_000000200723_Eastbound-2-(slow)" type="between_detector_position" color="blue" lane="123965879#4_1" pos="53.00"/>
+    <poi id="NRA_000000200723_Eastbound-3-(fast)" type="between_detector_position" color="blue" lane="123965879#4_2" pos="53.00"/>
+    <poi id="NRA_000000200723_Westbound-3-(fast)" type="between_detector_position" color="blue" lane="123961236#1_2" pos="1522.00"/>
+    <poi id="NRA_000000200723_Westbound-2-(slow)" type="between_detector_position" color="blue" lane="123961236#1_1" pos="1522.00"/>
+    <poi id="NRA_000000200723_Westbound-1-(slow)" type="between_detector_position" color="blue" lane="123961236#1_0" pos="1522.00"/>
+    <poi id="NRA_000000001073_Eastbound-1" type="sink_detector_position" color="red" lane="327268097#1_0" pos="1006.00"/>
+    <poi id="NRA_000000001073_Eastbound-2" type="sink_detector_position" color="red" lane="327268097#1_1" pos="1006.00"/>
+    <poi id="NRA_000000001073_Eastbound-3" type="sink_detector_position" color="red" lane="327268097#1_2" pos="1006.00"/>
+    <poi id="NRA_000000001073_Westbound-3" type="source_detector_position" color="green" lane="123962130.2472_2" pos="0.00"/>
+    <poi id="NRA_000000001073_Westbound-2" type="source_detector_position" color="green" lane="123962130.2472_1" pos="0.00"/>
+    <poi id="NRA_000000001073_Westbound-1" type="source_detector_position" color="green" lane="123962130.2472_0" pos="0.00"/>
+    <poi id="S1" type="sink_detector_position" color="red" lane="-128052719_0" pos="153.00"/>
+    <poi id="S2" type="sink_detector_position" color="red" lane="86291441_0" pos="364.00"/>
+    <poi id="S3" type="sink_detector_position" color="red" lane="128497230#1_0" pos="596.00"/>
+    <poi id="S4" type="sink_detector_position" color="red" lane="24644789_0" pos="370.00"/>
+    <poi id="S5" type="sink_detector_position" color="red" lane="-275503318#2_0" pos="62.00"/>
+    <poi id="S6" type="sink_detector_position" color="red" lane="58738830_0" pos="70.00"/>
+    <poi id="S7" type="sink_detector_position" color="red" lane="58670761_0" pos="105.00"/>
+    <poi id="S8" type="sink_detector_position" color="red" lane="24644789_1" pos="370.00"/>
+    <poi id="S9" type="sink_detector_position" color="red" lane="86382126_0" pos="37.00"/>
+    <poi id="S10" type="sink_detector_position" color="red" lane="-8296126#3_0" pos="73.00"/>
+    <poi id="S11" type="sink_detector_position" color="red" lane="128497195_0" pos="80.00"/>
+    <poi id="S12" type="sink_detector_position" color="red" lane="86382092_0" pos="8.00"/>
+    <poi id="S13" type="sink_detector_position" color="red" lane="22661031#0_0" pos="496.00"/>
+    <poi id="S14" type="sink_detector_position" color="red" lane="-123961980_0" pos="105.00"/>
+    <poi id="S15" type="sink_detector_position" color="red" lane="22780363_0" pos="323.00"/>
+    <poi id="S16" type="sink_detector_position" color="red" lane="58738832_0" pos="272.00"/>
+    <poi id="S19" type="sink_detector_position" color="red" lane="22907450_0" pos="87.00"/>
+    <poi id="S17" type="sink_detector_position" color="red" lane="58670754_0" pos="20.00"/>
+    <poi id="E1" type="source_detector_position" color="green" lane="24644790_0" pos="0.00"/>
+    <poi id="E2" type="source_detector_position" color="green" lane="29334729_0" pos="0.00"/>
+    <poi id="E3" type="source_detector_position" color="green" lane="123960508_0" pos="0.00"/>
+    <poi id="E4" type="source_detector_position" color="green" lane="123959660_0" pos="0.00"/>
+    <poi id="E5" type="source_detector_position" color="green" lane="123967087_0" pos="0.00"/>
+    <poi id="E6" type="source_detector_position" color="green" lane="128497436_0" pos="0.00"/>
+    <poi id="E7" type="source_detector_position" color="green" lane="-128497195_0" pos="0.00"/>
+    <poi id="E8" type="source_detector_position" color="green" lane="128052719_0" pos="0.00"/>
+    <poi id="E9" type="source_detector_position" color="green" lane="123961980_0" pos="0.00"/>
+    <poi id="E10" type="source_detector_position" color="green" lane="-22907450_0" pos="0.00"/>
+    <poi id="E11" type="source_detector_position" color="green" lane="-22661031#2_0" pos="0.00"/>
+    <poi id="E12" type="source_detector_position" color="green" lane="-86382126_0" pos="0.00"/>
+    <poi id="E13" type="source_detector_position" color="green" lane="-86382092_0" pos="0.00"/>
+    <poi id="E14" type="source_detector_position" color="green" lane="275503318#0_0" pos="0.00"/>
+    <poi id="E15" type="source_detector_position" color="green" lane="8296126#0_0" pos="0.00"/>
+    <poi id="E16" type="source_detector_position" color="green" lane="192556113_0" pos="0.00"/>
+    <poi id="E17" type="source_detector_position" color="green" lane="398588970_0" pos="0.00"/>
+    <poi id="E18" type="source_detector_position" color="green" lane="123960478_0" pos="0.00"/>
+</additional>

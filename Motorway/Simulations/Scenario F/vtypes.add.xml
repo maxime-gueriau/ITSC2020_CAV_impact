@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    
+	<vType id="CAT4" vClass="truck" speedDev="0.05" carFollowModel="IDM" minGap="1" tau="0.5" sigma="0.05" probability="0.2"/>
+	<vType id="CAT2" vClass="truck" speedDev="0.05" carFollowModel="IDM" minGap="1.5" tau="0.8" sigma="0.05" lcStrategic="0.5" probability="0.5"/>
+	<vType id="HDT" vClass="truck" lcStrategic="0.5" probability="0.3" />
+	
+	<vType id="CAV4" vClass="passenger" speedDev="0.05" carFollowModel="IDM" minGap="1" tau="0.5" sigma="0.05" probability="0.2"/>
+	<vType id="CAV2" vClass="passenger" speedDev="0.05" carFollowModel="IDM" minGap="1.5" tau="0.8" sigma="0.05" lcStrategic="0.5" probability="0.5"/>
+	<vType id="HDC" vClass="passenger" tau="1.2" lcStrategic="0.5" probability="0.3" />
+	
+	<vTypeDistribution id="PKW" vTypes="HDC CAV2 CAV4"/>
+	<vTypeDistribution id="LKW" vTypes="HDT CAT2 CAT4"/>
+	
+</additional>

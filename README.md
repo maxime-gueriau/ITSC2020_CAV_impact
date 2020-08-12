@@ -3,7 +3,7 @@ This git repository is linked to the research paper entitled "_Quantifying the i
 
 This repository includes all the files required to run the simulations used to produce results presented in the paper:
 * all SUMO road network models,
-* all scenarios (A--G) for all case studies (CS1, CS2 \& CS3),
+* all scenarios (A-F) for all case studies (CS1, CS2 \& CS3),
 * all datasets used (demand generation),
 * the full set of results (all scenarios and case studies).
 
